@@ -1,0 +1,130 @@
+ p {
+    font-size: 1.5em;
+    font-family: sans-serif; 
+    line-height: 1.5em;
+    color: gray;
+    margin-top: 110px;
+ }
+
+ h1 {text-align: center; 
+     color: #fff7e6; 
+     font-size: 70px;
+     font-family: 'Orbitron', sans-serif;
+     font-family: 'Poiret One' cursive;
+     font-style: italic;
+     background: #000000;
+     line-height: 80px;
+     width: 500px;
+     padding-top: 20px; padding-bottom: 20px;
+     border-color: #554466;
+     border-width: 3px;
+     border-style: groove;
+     margin-top: 100px;
+     margin-bottom: 0px;
+     margin-left: 300px;
+
+}
+ h2 {text-align: center;
+        color: #262626; 
+        font-family: 'Orbitron', sans-serif;
+        font-style: italic;
+        line-height: 1.5em;
+        width: 230px;
+        padding-top: 10px;
+        margin-left: 303px;
+        margin-top: 0px;
+}
+
+nav {
+    width:150px;
+    backface-visibility: hidden;
+    margin-top: -140px;
+}
+
+ul {
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+div a{
+    text-decoration: underline;
+    color: #b30000;
+    padding: 20px;
+    padding-right: 50px;
+}
+div ul li {
+    list-style-type: none;
+    display:block;
+    padding: 15px; 
+    border-bottom: 1px solid #236D7F;
+}
+div ul li:hover{
+    background: #c0c0c0;
+    transition: linear all 0.40s;
+    margin-left: 10px;
+}
+div ul li a:hover{
+    color: #e9f434;
+}
+.selected{
+    background:none;
+    
+    <!-- above code for side menu bar color and background change -->
+}
+.selected a{
+    color: #000000;
+}
+#manager {
+    position: static; absolute;
+    top: 450px; 
+    left: 225px; 
+    font-family: sans-serif;
+    font-size: 28px;
+    margin-top: -140px;
+     border-width: 20px;
+     border-style: hidden;
+     padding: 20px;
+     outline: none;
+}
+
+#social {
+    border: 200px; position: absolute;
+    top: 100px; 
+    left: 825px; 
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Poiret One' cursive;
+    font-size: 20px;
+     padding: 10px;
+     border-color: #000000;
+     border-width: 9px;
+     border-style: groove;
+}
+
+#slideshow {
+       margin-left: 300px;
+       margin-top: -250px;
+      
+}
+#player {
+    border: 200px; position:absolute; 
+    top: 725px; 
+    left: 425px; 
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Poiret One' cursive;
+    font-size: 25px;
+     padding: 20px;
+     border-color: #554466;
+     border-width: 3px;
+     border-style: groove;
+     resize: both;
+}
+
+#homemenu {
+    margin-top: 185px;
+    margin-left: 425px
+}
+ #calendar {
+    margin-left: 800px;
+    margin-top: -375px;
+    
+  }

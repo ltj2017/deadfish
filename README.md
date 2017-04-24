@@ -15,4 +15,5 @@ If you want, you can also go watch some training videos at
 http://www.youtube.com/user/c9ide.
 
 Happy coding!
-The Cloud9 IDE team# deadfish
+The Cloud9 IDE team# digitaldj2017
+# deadfish

@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>PHOTO GALLERY</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+<style type="text/css">
+
+   body {
+      background-image: url(images/photo3.jpg); no-repeat center center fixed;
+      -webkit-background-size: cover;                      
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+   
+    </style>
+</head>
+    <body>
+       <div>
+<h1>GALLERY</h1>
+        </div>
+    <nav>
+        <div class="menu">
+    <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li> <a href="bio.html">BIO</a></li>
+                    <li><a href="photos.html">PICS</a></li>
+                    <li><a href="schedule.html">DATES</a></li>
+                    <li><a href="contact.html">INFO</a></li>
+        </ul>
+                </div>
+        </nav>
+        
+    <!-- below code for photo slide show -->    
+        
+            <div id="slideshow">
+  <img class="mySlides" src="images/lowereastside.jpg" style="width: 700px;">
+  <img class="mySlides" src="images/ChaosMiami.jpg" style="width: 700px">
+  <img class="mySlides" src="images/EchoesLondon.jpg" style="width: 700px">
+  <img class="mySlides" src="images/IllusionBarcelona.jpg" style="width: 700px">
+  
+  <h2>REWIND/FORWARD</h2>
+  
+  
+  <button class="button black-left" onclick="plusDivs(-1)" style="height:70px" "width: 70px">&#10094;</button>
+  <button class="button black-right" onclick="plusDivs(1)" style="height:70px" "width: 70px">&#10095;</button>
+  
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+
+    <!-- end of code for photo slide show -->
+
+</script>
+        
+</body>
+    
+</html>
